@@ -1,3 +1,18 @@
 {
-  "trancas": []
+  "trancas": [
+    {
+      "nome": "ikaro",
+      "marcacao": "16/10/2022/-16:00",
+      "estilo": "Box braids",
+      "fibra": "Fibra empresa",
+      "id": 1
+    },
+    {
+      "nome": "ikaro",
+      "marcacao": "16/10/2022/-16:00",
+      "estilo": "Box braids",
+      "fibra": "Fibra empresa",
+      "id": 2
+    }
+  ]
 }

@@ -7,16 +7,16 @@
                 <div id="cliente-table-heading">
                     <div class="order-id">#</div>
                     <div>Cliente</div>
-                    <div>Data</div>
+                    <div id="data">Data</div>
                     <div>Modelo</div>
-                    <div>Fibra:</div>
+                    <div>Fibra</div>
                     <div>Ação</div>
                 </div>
                 <div id="cliente-table-rows">
                     <div class="cliente-table-row" v-for="tranca in trancas" :key="tranca.id">
                         <div class="order-number">{{tranca.id}}</div>
                         <div>{{tranca.nome}}</div>
-                        <div>{{tranca.marcacao}}</div>
+                        <div id="marcacao">{{tranca.marcacao}}</div>
                         <div>{{tranca.estilo}}</div>
                         <div>{{tranca.fibra}}</div>
                         <div ><button @click="getdselete(tranca.id)" id="btn">Cancelar</button></div>
@@ -126,4 +126,17 @@
         background-color: transparent;
         transition: 0.3s;
     }
+    @media only screen and (max-width:442px){
+        #btn{
+            font-size:0.8em;
+        }
+        #cliente-table-heading,#cliente-table-rows{
+            font-size:0.8em
+        }
+        .cliente-table-row .order-number{
+         width: 2%;
+        }
+      
+    }
+        
 </style>

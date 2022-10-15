@@ -96,6 +96,7 @@
     #barner{
         display: flex;
     }
+
     #img {
         background-image: url('../../public/img/baner.jpg');
         background-repeat: no-repeat;
@@ -104,6 +105,9 @@
         height:500px;
         margin-left:40px;
     }
+
+ 
+  
     #formulario{
         margin-top: 50px;
         margin:auto;
@@ -119,6 +123,7 @@
         width: 400px;
         color: white;
     }
+
     .form-container input{
         color: white;
         height:25px;
@@ -140,6 +145,27 @@
     .checkBox span{
         margin-left: 6px;
     }
+    @media only screen and (max-width:640px){
+       
+        #formulario{
+            margin:;
+        }
+        #img{
+            width:100vW;
+            height:300px;
+            margin:auto;
+        }
+        .form-container{
+            width:200px
+        }
+        .checkBox input{
+            margin-left:10px;
+        }
+        .checkBox{
+            display:block;
+            text-align:left;
+        }
+    }
     .btn{
         display: block;
         margin: auto;
@@ -157,5 +183,31 @@
         background-color: transparent;
         transition: 0.3s;
     }
-   
+    @media only screen and (max-width:640px){
+       
+       #formulario{
+           margin:;
+       }
+       #img{
+           width:100vW;
+           height:350px;
+           margin:auto;
+       }
+       .form-container{
+           width:200px
+       }
+       .checkBox input{
+           margin-left:10px;
+           display:block;
+       }
+       .checkBox{
+           
+           text-align:left;
+       }
+       .btn{
+            width:150px;
+            margin-top:20px;
+            padding:3px 0;
+       }
+   }
 </style>

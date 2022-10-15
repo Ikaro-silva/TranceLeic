@@ -86,5 +86,51 @@
         height: 400px;
         padding:20px 10px;
     }
+    @media only screen and (max-width:442px){
+        h1{
+        background-color: black;
+        text-align: center;
+        color:white;
+        font-size:1.5em;
+    }
 
+   
+    .img-box-braidH{
+        width:320px;
+        height:380px;
+        padding:20px 10px;
+        
+    }
+    .img-box-brainds{
+        height:380px;
+        width:320px;
+        padding:20px 10px;
+    }
+    .img-nagô{
+        height:380px;
+        width: 320px;
+        padding:20px 10px;
+    }
+    .img-trancando{
+        width: 90vw;
+        height:500px;
+        padding:10px;
+    }   
+    .img-tranca-nago{
+        width: 320px;
+        height:380px;
+        padding:20px 10px;
+    }
+    .img-tranca-Masc{
+        width:320px;
+        height:380px;
+        padding:20px 10px;
+    }
+    .img-twist{
+        width:320px;
+        height: 380px;
+        padding:20px 10px;
+    }
+        
+    }
 </style>

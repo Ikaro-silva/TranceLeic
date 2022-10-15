@@ -23,5 +23,10 @@
         margin-bottom: 20px;
         width:380px;
     }
+    @media only screen and (max-width:442px){
+        .msg-container{
+            width:150px;
+        }
+    }
 
 </style>

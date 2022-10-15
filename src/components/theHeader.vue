@@ -18,6 +18,7 @@
 </script>
 
 <style scoped>
+   
     #header-main{
         display: flex;
         background-color: black;
@@ -26,6 +27,7 @@
         justify-content:space-between;
         
     }
+
     #links{
         margin: auto 0;
     }
@@ -37,12 +39,24 @@
         font-weight: bold;
 
     }
+
     #header-main a:hover{
         color:#b66e02;
         transition: 0.3s;
     }
     #header-main h1{
         color: #ff9c07;
+    }
+    @media only screen and (max-width:442px){
+        #header-main{
+            padding:20px 10px
+        }
+        #header-main a{
+           margin-right:10px
+        }
+        #header-main h1{
+        font-size:1.5em;
+    }
     }
 
 
